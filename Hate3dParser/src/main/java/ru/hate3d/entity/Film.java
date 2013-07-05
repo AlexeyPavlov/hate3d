@@ -1,79 +1,79 @@
 package ru.hate3d.entity;
 
 /**
- * Фильм
+ * Р¤РёР»СЊРј
  * 
- * @author Алексей Павлов
+ * @author РђР»РµРєСЃРµР№ РџР°РІР»РѕРІ
  */
 public class Film {
 
 	/*
-	 * Идентификатор
+	 * РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	private long id;
 
 	/*
-	 * Название
+	 * РќР°Р·РІР°РЅРёРµ
 	 */
-	private String title;
+	private String name;
 
 	/*
-	 * Описание
+	 * РћРїРёСЃР°РЅРёРµ
 	 */
 	private String description;
 
 	/**
-	 * Получить идентификатор
+	 * РџРѕР»СѓС‡РёС‚СЊ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 * 
-	 * @return идентификатор
+	 * @return РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	public long getId() {
 		return id;
 	}
 
 	/**
-	 * Установить идентификатор
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 * 
 	 * @param id
-	 *            - идентификатор
+	 *            - РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	public void setId(long id) {
 		this.id = id;
 	}
 
 	/**
-	 * Получить название
+	 * РџРѕР»СѓС‡РёС‚СЊ РЅР°Р·РІР°РЅРёРµ
 	 * 
-	 * @return название
+	 * @return РЅР°Р·РІР°РЅРёРµ
 	 */
-	public String getTitle() {
-		return title;
+	public String getName() {
+		return name;
 	}
 
 	/**
-	 * Установить название
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РЅР°Р·РІР°РЅРёРµ
 	 * 
 	 * @param title
-	 *            - название
+	 *            - РЅР°Р·РІР°РЅРёРµ
 	 */
-	public void setTitle(String title) {
-		this.title = title;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	/**
-	 * Получить описание
+	 * РџРѕР»СѓС‡РёС‚СЊ РѕРїРёСЃР°РЅРёРµ
 	 * 
-	 * @return описание
+	 * @return РѕРїРёСЃР°РЅРёРµ
 	 */
 	public String getDescription() {
 		return description;
 	}
 
 	/**
-	 * Установить описание
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РѕРїРёСЃР°РЅРёРµ
 	 * 
 	 * @param description
-	 *            - описание
+	 *            - РѕРїРёСЃР°РЅРёРµ
 	 */
 	public void setDescription(String description) {
 		this.description = description;

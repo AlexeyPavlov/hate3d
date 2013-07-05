@@ -3,55 +3,55 @@ package ru.hate3d.entity;
 import java.util.List;
 
 /**
- * Зал
+ * Р—Р°Р»
  * 
- * @author Алексей Павлов
+ * @author РђР»РµРєСЃРµР№ РџР°РІР»РѕРІ
  */
 public class Hall {
 
 	/*
-	 * Идентификатор
+	 * РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	private int id;
 
 	/*
-	 * Сеансы
+	 * РЎРµР°РЅСЃС‹
 	 */
 	private List<Session> sessions;
 
 	/**
-	 * Получить идентификатор
+	 * РџРѕР»СѓС‡РёС‚СЊ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 * 
-	 * @return идентификатор
+	 * @return РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	public int getId() {
 		return id;
 	}
 
 	/**
-	 * Установить идентификатор
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 * 
 	 * @param id
-	 *            - идентификатор
+	 *            - РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	public void setId(int id) {
 		this.id = id;
 	}
 
 	/**
-	 * Получить сеансы
+	 * РџРѕР»СѓС‡РёС‚СЊ СЃРµР°РЅСЃС‹
 	 * 
-	 * @return сеансы
+	 * @return СЃРµР°РЅСЃС‹
 	 */
 	public List<Session> getSessions() {
 		return sessions;
 	}
 
 	/**
-	 * Установить сеансы
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЃРµР°РЅСЃС‹
 	 * 
 	 * @param sessions
-	 *            - сеансы
+	 *            - СЃРµР°РЅСЃС‹
 	 */
 	public void setSessions(List<Session> sessions) {
 		this.sessions = sessions;

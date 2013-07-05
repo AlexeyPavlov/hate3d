@@ -3,55 +3,55 @@ package ru.hate3d.entity;
 import java.util.Date;
 
 /**
- * Сеанс
+ * РЎРµР°РЅСЃ
  * 
- * @author Алексей Павлов
+ * @author РђР»РµРєСЃРµР№ РџР°РІР»РѕРІ
  */
 public class Session {
 
 	/*
-	 * Время начала
+	 * Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р°
 	 */
 	private Date startTime;
 
 	/*
-	 * Фильм
+	 * Р¤РёР»СЊРј
 	 */
 	private Film film;
 
 	/**
-	 * Получить время начала
+	 * РџРѕР»СѓС‡РёС‚СЊ РІСЂРµРјСЏ РЅР°С‡Р°Р»Р°
 	 * 
-	 * @return время начала
+	 * @return РІСЂРµРјСЏ РЅР°С‡Р°Р»Р°
 	 */
 	public Date getStartTime() {
 		return startTime;
 	}
 
 	/**
-	 * Установить время начала
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РІСЂРµРјСЏ РЅР°С‡Р°Р»Р°
 	 * 
 	 * @param startTime
-	 *            - время начала
+	 *            - РІСЂРµРјСЏ РЅР°С‡Р°Р»Р°
 	 */
 	public void setStartTime(Date startTime) {
 		this.startTime = startTime;
 	}
 
 	/**
-	 * Получить фильм
+	 * РџРѕР»СѓС‡РёС‚СЊ С„РёР»СЊРј
 	 * 
-	 * @return фильм
+	 * @return пїЅпїЅпїЅпїЅпїЅ
 	 */
 	public Film getFilm() {
 		return film;
 	}
 
 	/**
-	 * Установить фильм
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ С„РёР»СЊРј
 	 * 
 	 * @param film
-	 *            фильм
+	 *            С„РёР»СЊРјС‹
 	 */
 	public void setFilm(Film film) {
 		this.film = film;

@@ -3,79 +3,79 @@ package ru.hate3d.entity;
 import java.util.List;
 
 /**
- * Сеть
+ * РЎРµС‚СЊ
  * 
- * @author Алексей Павлов
+ * @author РђР»РµРєСЃРµР№ РџР°РІР»РѕРІ
  */
 public class Network {
 
 	/*
-	 * Идентификатор
+	 * РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	private int id;
 
 	/*
-	 * Название
+	 * РќР°Р·РІР°РЅРёРµ
 	 */
 	private String name;
 
 	/*
-	 * Кинотеатры
+	 * РљРёРЅРѕС‚РµР°С‚СЂС‹
 	 */
 	private List<Cinema> cinemas;
 
 	/**
-	 * Получить идентификатор
+	 * РџРѕР»СѓС‡РёС‚СЊ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 * 
-	 * @return идентификатор
+	 * @return РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	public int getId() {
 		return id;
 	}
 
 	/**
-	 * Установить идентфикатор
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 * 
 	 * @param id
-	 *            - идентификатор
+	 *            - РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
 	 */
 	public void setId(int id) {
 		this.id = id;
 	}
 
 	/**
-	 * Получить название
+	 * РџРѕР»СѓС‡РёС‚СЊ РЅР°Р·РІР°РЅРёРµ
 	 * 
-	 * @return название
+	 * @return РЅР°Р·РІР°РЅРёРµ
 	 */
 	public String getName() {
 		return name;
 	}
 
 	/**
-	 * Установить название
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РЅР°Р·РІР°РЅРёРµ
 	 * 
 	 * @param name
-	 *            - название
+	 *            - РЅР°Р·РІР°РЅРёРµ
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 
 	/**
-	 * Получить кинотеатры
+	 * РџРѕР»СѓС‡РёС‚СЊ РєРёРЅРѕС‚РµР°С‚СЂС‹
 	 * 
-	 * @return кинотеатры
+	 * @return РєРёРЅРѕС‚РµР°С‚СЂС‹
 	 */
 	public List<Cinema> getCinemas() {
 		return cinemas;
 	}
 
 	/**
-	 * Установить кинотеатры
+	 * РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РєРёРЅРѕС‚РµР°С‚СЂС‹
 	 * 
 	 * @param cinemas
-	 *            - кинотеатры
+	 *            - РєРёРЅРѕС‚РµР°С‚СЂС‹
 	 */
 	public void setCinemas(List<Cinema> cinemas) {
 		this.cinemas = cinemas;
